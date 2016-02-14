@@ -1,0 +1,11 @@
+title: Forced Code Reviews
+
+description: "Automatically un-merges any PR opened and merged by the same person."
+
+entry_point: force-code-review.js
+
+triggered_on:
+  - pull_request
+
+scopes_required:
+  - 'repo'
